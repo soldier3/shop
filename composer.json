@@ -1,0 +1,19 @@
+{
+    "name": "kosenko/lesson_1",
+    "description": "lesson_1",
+    "type": "project",
+    "license": "no license",
+    "authors": [
+        {
+            "name": "vova",
+            "email": "test@mail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+
+}
