@@ -19,7 +19,8 @@ class Goods
      * @param int $price
      * @param int $quantity
      */
-    public function __construct( string $name = "def" ,int $category = 1, int $price = 0, int $quantity = 0)
+
+    public function __construct( $name = "def" , $category = 1, $price = 0, $quantity = 0)
     {
         $this->id = rand(11, 100);
         $this->name = $name;
@@ -32,7 +33,7 @@ class Goods
         $array = [];
 
         foreach ($this as $key => $value ) {
-            $array[$key][] = $value;
+            $array[$key] = (string) $value;
         }
 
         return $array;
