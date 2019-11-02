@@ -1,0 +1,95 @@
+{
+    "goods": [
+        {
+            "id": "1",
+            "name": "Mercedes-car",
+            "category": "1",
+            "price": "100",
+            "quantity": "7"
+        },
+        {
+            "id": "2",
+            "name": "BMW",
+            "category": "1",
+            "price": "90",
+            "quantity": "10"
+        },
+        {
+            "id": "3",
+            "name": "Mercedes-car",
+            "category": "1",
+            "price": "110",
+            "quantity": "3"
+        },
+        {
+            "id": "4",
+            "name": "Audi",
+            "category": "1",
+            "price": "90",
+            "quantity": "12"
+        },
+        {
+            "id": "5",
+            "name": "Opel",
+            "category": "1",
+            "price": "65",
+            "quantity": "37"
+        },
+        {
+            "id": "6",
+            "name": "Ataman",
+            "category": "2",
+            "price": "70",
+            "quantity": "6"
+        },
+        {
+            "id": "7",
+            "name": "Volvo",
+            "category": "2",
+            "price": "150",
+            "quantity": "3"
+        },
+        {
+            "id": "8",
+            "name": "Mercedes-bus",
+            "category": "2",
+            "price": "190",
+            "quantity": "1"
+        },
+        {
+            "id": "9",
+            "name": "Skoda",
+            "category": "3",
+            "price": "450",
+            "quantity": "22"
+        },
+        {
+            "id": "10",
+            "name": "Bogdan",
+            "category": "3",
+            "price": "280",
+            "quantity": "37"
+        },
+        {
+            "id": "85",
+            "name": "def",
+            "category": "1",
+            "price": "",
+            "quantity": ""
+        }
+    ],
+    "category": [
+        {
+            "name": "car",
+            "id": "1"
+        },
+        {
+            "name": "bus",
+            "id": "2"
+        },
+        {
+            "name": "train",
+            "id": "3"
+        }
+    ]
+}
