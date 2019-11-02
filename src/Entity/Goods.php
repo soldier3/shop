@@ -20,7 +20,7 @@ class Goods
      * @param int $quantity
      */
 
-    public function __construct( $name = "def" , $category = 1, $price = 0, $quantity = 0)
+    public function __construct( $name = "def" , $category = 1, $price = null, $quantity = null)
     {
         $this->id = rand(11, 100);
         $this->name = $name;
